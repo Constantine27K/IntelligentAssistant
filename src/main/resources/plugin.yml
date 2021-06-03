@@ -1,0 +1,35 @@
+name: CourseWorkMod
+version: ${project.version}
+main: me.constantine.courseworkmod.CourseWorkMod
+api-version: 1.16
+commands:
+  mob:
+    description: spawns mob.
+    usage: /<command>
+  build:
+    description: placing 1 block.
+    usage: /<command>
+  wand:
+    description: gives a wand.
+    usage: /<command>
+  unclaim:
+    description: unclaimes territory.
+    usage: /<command>
+  standby:
+    description: mob stanby mode.
+    usage: /<command>
+  notstandby:
+    description: mob stanby mode canceled;
+    usage: /<command>
+  teleport:
+    description: mob teleports to player.
+    usage: /<command>
+  die:
+    description: mob dies.
+    usage: /<command>
+  help:
+    description: help dialog.
+    usage: /<command>
+  tptomob:
+    description: teleports player to mob.
+    usage: /<command>
